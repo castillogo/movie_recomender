@@ -1,0 +1,45 @@
+/*Here is a comment */
+
+/*#logo {*/
+/*  height: 50px;*/
+/*}*/
+
+
+.main-splash {
+  font-family: Helvetica;
+  background-color: grey;
+  height: 100vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 30px;
+  font-family: : Arial;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatever {
+  margin-top: 10px;
+  font-family: : Arial;
+  background-color: white;
+  color: black;
+}
+
+
+*{
+  background-color: gray;
+}
+
+
+li{
+  color:black;
+}

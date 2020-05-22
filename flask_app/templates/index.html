@@ -1,0 +1,32 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+  <!-- WRAP EVERYTHING INTO A DIV -->
+  <div class="jumbotron">
+
+
+    <h1>Hello World!</h1>
+
+    <img class ="intro-image" src="https://www.spiced-academy.com/images/logos/SPC_Logo_RGB-white.png" alt="spiced-logo">
+    <br>
+    <h3>Welcome to my site!</h3>
+
+    <form action='/recommender' method="get">
+      <p>Enter Some Movie Ratings</p>
+      <input type="text" name="movie1" placeholder="Enter a Movie Title">
+      <input type="text" name="rating1" placeholder="Enter a Rating (1-5)">
+      <br>
+      <input type="text" name="movie2" placeholder="Enter a Movie Title">
+      <input type="text" name="rating2" placeholder="Enter a Rating (1-5)">
+      <br>
+      <input type="text" name="movie3" placeholder="Enter a Movie Title">
+      <input type="text" name="rating3" placeholder="Enter a Rating (1-5)">
+      <br>
+      <input type="submit" value="GIMME RATINGS" class="submit-button btn-danger btn-block">
+
+    </form>
+
+  </div>
+
+{% endblock %}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% endblock %}
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DS MOVIE RECOMMENDER</title>
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+  <h1>Juan's movie recommendation site!</h1>
+  <br>
+  <h3>Welcome to my site!</h3>
+
+  <form action='/recommender' method="get">
+    <p>Enter some info <p>
+    <input type="text" name="movie1" placeholder="Enter a movie title">
+    <input type="number" id="quantity" name="rating1" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input type="text" name="movie2" placeholder="Enter a movie title">
+    <input type="number" id="quantity" name="rating2" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input type="text" name="movie3" placeholder="Enter a movie title">
+    <input type="number" id="quantity" name="rating3" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input type="submit" value="show me some recommendations!">
+    <br>
+  </form>
+
+</body>

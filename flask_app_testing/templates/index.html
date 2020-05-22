@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JUAN MOVIE RECOMMENDER</title>
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+  <div class="main-splash">
+
+  <h1>Juan's movie recommendation site!</h1>
+  <br>
+  <iframe class= gif src="https://giphy.com/embed/3hxk2aOwWmfOU" width="192" height="136" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/90s-clueless-3hxk2aOwWmfOU"></a></p>
+
+  <br>
+  <h3>enter your favorite movies and your ratings</h3>
+
+  <form action='/recommender' method="get">
+    <input class='whatever' type="text" name="movie1" placeholder="Enter a movie title">
+    <input class='whatever' type="number" id="quantity" name="rating1" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input class='whatever' type="text" name="movie2" placeholder="Enter a movie title">
+    <input class='whatever' type="number" id="quantity" name="rating2" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input class='whatever' type="text" name="movie3" placeholder="Enter a movie title">
+    <input class='whatever' type="number" id="quantity" name="rating3" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input class='whatever' type="text" name="movie4" placeholder="Enter a movie title">
+    <input class='whatever' type="number" id="quantity" name="rating4" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input class='whatever' type="text" name="movie5" placeholder="Enter a movie title">
+    <input class='whatever' type="number" id="quantity" name="rating5" placeholder="Enter a rating (1-5)" min="1" max="5">
+    <br>
+    <input class='button' type="submit" value="     show me some recommendations please!     ">
+    <br>
+  </form>
+
+  </div>
+
+</body>

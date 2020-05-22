@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+
+  <!-- THIS IS A BORROWED PRE-BUILT CLASS FROM BOOTSTRAP -->
+  <!-- https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+  <div class="jumbotron">
+
+
+    <h1>Here are your recommended movies (This is just
+      <span id="random">random</span> <!--span tags are good for editing specific words in-line -->
+      at the moment):
+    </h1>
+
+    <ul>
+      {% for i in result_html %}
+      <li class="recommendation-list"> {{ i }} </li>
+      <!-- Jinja For Loop -->
+      <!-- command / ctrl + '/' -->
+      {% endfor %}
+    </ul>
+
+    <a href='/index'>Go back home!</a>
+
+  </div>
+
+</body>
+
+</html>

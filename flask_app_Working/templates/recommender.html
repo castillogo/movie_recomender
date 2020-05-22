@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+
+  <h1>Here is what you entered:</h1>
+
+  <ul>
+  {% for m, r in user_input_html %}
+  <li> Movie: {{m}} </li>
+  <li> Rating: {{r[0]}} </li>
+  <br>
+  {% endfor %}
+  </ul>
+
+  <h1>Here are your recommended movies:</h1>
+
+  <ul>
+    {% for i in result_html %}
+    <li> {{ i }} </li>
+    <!-- Jinja For Loop -->
+    <!-- command / ctrl + '/' -->
+    {% endfor %}
+  </ul>
+
+  <a href='/index'>Go back home!</a>
+
+</body>
+
+</html>

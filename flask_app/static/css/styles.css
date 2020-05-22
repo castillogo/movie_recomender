@@ -1,0 +1,59 @@
+/* HERE IS A COMMENT */
+
+/* Refresh: cmd + r (ctrl + r)
+Hard Refresh: cmd + shift + r */
+
+/* * {
+  background-color: teal;
+} */
+
+/* li {
+  color: red;
+} */
+
+/* "." targets HTML elements by class name */
+.recommendation-list {
+  color:#FFE4F8;
+}
+
+/* "#" targets HTML elements by id */
+#random {
+  color: #FFE4F8;
+}
+
+h1 {
+  color: #00C9B6;
+}
+
+/*
+ORDER OF SPECIFICITY / PRIORITY:
+- id
+- class
+- elements */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  margin-top: 5px;
+}
+
+.intro-image {
+  height: 50px;
+}
+
+.jumbotron {
+  height: 100vh;
+  display: flex;
+  background-color: #62003C;
+  color: #FFE4F8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
